@@ -1,5 +1,14 @@
 {
   "projects": {
     "default": "fitness-manager-6a566"
+  },
+  "targets": {
+    "fitness-manager-6a566": {
+      "hosting": {
+        "fitness-manager": [
+          "fitness-manager-6a566"
+        ]
+      }
+    }
   }
 }

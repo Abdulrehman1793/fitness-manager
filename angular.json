@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "fitness-manager:build:production",
+            "firebaseProject": "fitness-manager-6a566",
+            "firebaseHostingSite": "fitness-manager-6a566"
+          }
         }
       }
     }
